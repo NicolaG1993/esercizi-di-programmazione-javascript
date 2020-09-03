@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var gatti = 10;
+var inFila = 3;
+
+var fileTotali = Math.ceil(gatti/inFila);
+var gattiMancanti = fileTotali*inFila-gatti;
+
+console.log(`C'erano ${gatti} gatti divisi per ${inFila}, che formavano ${fileTotali} file totali, con il resto di ${gattiMancanti}`);
